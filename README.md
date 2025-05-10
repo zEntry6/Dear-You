@@ -32,16 +32,6 @@
 
 You can go to Dear You Demo -> [DearYou](https://dear-you-kappa.vercel.app/)
 
-## 🚀 How to Use
-
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/yourusername/dear-you.git
-   cd dear-you
-2. Open index.html directly in your browser. No server required.
-3. Start using the features — your data will stay saved as long as you don’t clear your browser cache.
-4. You can open this link for testing -> https://dear-you-kappa.vercel.app/
-
 ## 🎨 Design & UX
 - Soft color palette (pastel pinks, whites, and warm tones)
 - Simple, minimal, and romantic interface
