@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dear You 💌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Dear You 💌</h1>
+    <p class="subtitle">A chill spot to drop your daily love notes for your LDR boo</p>
+  </header>
+
+  <main>
+    <section class="journal-form">
+      <textarea id="loveNote" placeholder="Leave your sweet thoughts here..."></textarea>
+      <button id="submitBtn">Message for Bae</button>
+    </section>
+
+    <section class="journal-entries">
+      <h2>Letters Wrapped in Love 📚</h2>
+      <ul id="entriesList"></ul>
+    </section>
+
+    <section class="mood-section">
+      <h2>Express How You Feel Today 🌸</h2>
+      <div class="mood-options">
+        <button class="mood-btn" data-mood="😊">Happy</button>
+        <button class="mood-btn" data-mood="😢">Sad</button>
+        <button class="mood-btn" data-mood="😴">Tired</button>
+        <button class="mood-btn" data-mood="🥰">In Love</button>
+        <button class="mood-btn" data-mood="🤔">Curious</button>
+      </div>
+      <div class="mood-display" id="moodDisplay"></div>
+    </section>
+
+    <section class="hug-section">
+      <h2>Share a Hug From Afar 🫂</h2>
+      <button id="hugBtn">Wrap me up in a hug!</button>
+      <div id="hugCounter">You’ve sent 0 hugs 💞</div>
+      <div id="hugAnimation">🤗</div>
+    </section>
+
+    <section class="countdown-section">
+      <h2>Almost there, can’t wait to see you 💑</h2>
+      <input type="date" id="dateInput" />
+      <button id="saveDateBtn">Save the date!</button>
+      <div class="countdown-display" id="countdownDisplay">⏳ Hang on...</div>
+    </section>
+
+    <section class="memory-timeline-section">
+      <h2>Captured Moments 📸</h2>
+      <input type="file" id="imageUpload" accept="image/*" />
+      <input type="text" id="imageDescription" placeholder="Add a little something..." />
+      <button id="uploadImageBtn">Upload the moments</button>
+      <div id="memoryTimeline"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
