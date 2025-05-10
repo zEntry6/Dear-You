@@ -36,7 +36,7 @@
    cd dear-you
 2. Open index.html directly in your browser. No server required.
 3. Start using the features — your data will stay saved as long as you don’t clear your browser cache.
-4. You can open this link for testing -> 
+4. You can open this link for testing -> https://dear-you-kappa.vercel.app/
 
 ## 🎨 Design & UX
 - Soft color palette (pastel pinks, whites, and warm tones)
